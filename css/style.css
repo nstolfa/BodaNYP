@@ -34,43 +34,47 @@
 /*le di una class al menú, porque si ponía directo header, me ponia todo el 
 fondo gris y solo quiero el fondo gris en el menú.*/
 
-.menu-container {
+/*PRACTICA DE ESTILO HEADER*/
+.header {
+    background-color: #daddd9;
+    padding: 10px 30px 10px 30px;
     display: flex;
-    margin: 20px;
-}
-
-.logo {
-    width: 100px;
-    display:flex;
-}
-
-.menu {
-    color: #8fbc8f;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style-type: none;
-    width: 1500px;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-/*Acá puse los estilos de los links de la página*/
-a:link{
+.header img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px dotted #e6a70d;
+}
+
+.header nav ul {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    column-gap: 50px;
+}
+
+.header nav ul li a {
+    font-size: large;
+}
+
+.header nav ul li a:link{
     color:#009b7d;
 }
 
-a:visited {
+.header nav ul li a:visited {
     color:#e6a70d;
 }
 
-a:active {
+.header nav ul li a:active {
     color:darkgreen;
 }
 
-a:hover {
+.header nav ul li a:hover {
     color:#8fbc8f;
 }
-
 /*ESTILOS MAIN GENERALES*/
 /*El titulo se repite en todas las páginas, es el nombre de la sección*/
 
@@ -78,6 +82,8 @@ a:hover {
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .titulo {
@@ -92,6 +98,7 @@ a:hover {
     color:#e6a70d;
     font-family: "midnight";
     margin: 0px 20px 20px 20px;
+    text-align: center;
 }
 
 /*Contenido de la página en sí, por debajo del titulo. Quiero que sea en negro, por eso no le di otro color*/
@@ -99,6 +106,7 @@ a:hover {
     font-family: "afacad";
     margin: 20px;
     text-align: center;
+    font-size: large;
 }
 
 .video {
@@ -187,14 +195,29 @@ footer {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#e6a70d ;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;*/
 }
 
 .footer-img {
     width: 40px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 320px) {
+
 }
