@@ -255,6 +255,38 @@ en negativo, excepto el texto principal*/
     background-attachment: fixed;
 }
 
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+    align-items: center;
+}
+
+.card-lc {
+    width: 350px;
+    height: 380px;
+    margin: 30px;
+    background-color: #1e1e1e;
+    border: 1px dotted #1e1e1e;
+    border-radius: 0% 20%;
+    overflow: hidden;
+}
+
+.texto-cards {
+    color: #dddddd;
+    text-align: center;
+    font-family: "afacad";
+    font-size: large;
+}
+
+.card-lc img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
 /*ESTILOS PÁGINA CONFIRMACIÓN*/
 .background-confirmacion {
     background-image: url("./../img/beige-tiles.png");

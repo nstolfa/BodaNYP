@@ -25,33 +25,43 @@
     </header>
 
 
-    <main>
+    <main class="background-ldc">
         <section>
             <div>
                 <h1 class="titulo">Lista de casamiento</h1>
-                <h2  class="texto-principal">Es una fecha muy importante para nosotros, si desean hacernos un presente acá tendrán distintas opciones para poder seleccionar lo que desean regalarnos. Al seleccionar el regalo, los redireccionará a la página donde realizamos la lista, Confites. ¡Muchas gracias!
+                <h2  class="texto-principal">Es una fecha muy importante para nosotros, para hacernos un presente acá tendrán distintas opciones para poder seleccionar lo que desean regalarnos, nos servirá mucho en la luna de miel. ¡Muchas gracias!
                 </h2>
         </section>
 
-        <section class="background-ldc">
-            <div>
-                <form action="" class="texto-principal">
-                    <img src="./../img/city-tour.jpg" alt="City tour en Ushuaia" width="200px">
-                    <label for="city-tour">City Tour Ushuaia</label>
-                        <p>ARS 20.000.-</p>
+        <section>
+            <div class="contenedor-cards">
+                <div class="card-lc">
+                    <img src="./../img/city-tour.jpg" alt="City tour Londres" width="200px">
+                    <form action="" class="texto-cards">
+                        <label for="city-tour">City Tour Londres</label>
+                        <p>ARS 80.000.-</p>
                         <input type="checkbox" name="city-tour" id="city-tour">
                         <input type="submit" value="Regalar">
-                    <img src="./../img/faro.jpg" alt="Excursión al faro del fin del mundo" width="200px">
-                    <label for="faro"></label>
-                        <p>ARS 70.000.-</p>
-                        <input type="checkbox" name="faro" id="faro">
+                    </form>
+                </div>
+                <div class="card-lc">
+                    <img src="./../img/warner.jpg" alt="Excursión al Warner Bros Studio Tour London" width="200px">
+                    <form action="" class="texto-cards">
+                        <label for="warner">Excursión al Warner Bros Studio Tour London</label>
+                        <p>ARS 60.000.-</p>
+                        <input type="checkbox" name="warner" id="warner">
                         <input type="submit" value="Regalar">
-                    <img src="./../img/ice-bar.jpg" alt="Bar de hielo en Ushuaia" width="200px">
-                    <label for="bar">Ice Bar Ushuaia</label>
-                        <p>ARS 50.000.-</p>
-                        <input type="checkbox" name="bar" id="bar">
+                    </form>
+                </div>
+                <div class="card-lc">
+                    <img src="./../img/eurostar.jpg" alt="Viaje en Eurostar" width="200px">
+                    <form action="" class="texto-cards">
+                        <label for="bus">Viaje en Eurostar Londres-Paris</label>
+                        <p>ARS 150.000.-</p>
+                        <input type="checkbox" name="eurostar" id="eurostar">
                         <input type="submit" value="Regalar">
-                </form>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
