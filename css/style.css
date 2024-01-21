@@ -90,6 +90,12 @@ fondo gris y solo quiero el fondo gris en el menú.*/
     flex-wrap: wrap;
 }
 
+.main-container-2 {
+    margin: 20px;
+    background-image: url(./../img/fondo-main.png);
+    background-attachment: fixed;
+}
+
 .titulo {
     color:#009b7d;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -113,6 +119,14 @@ fondo gris y solo quiero el fondo gris en el menú.*/
     font-size: large;
 }
 
+.main-container-inf {
+    background-image: url(./../img/fondo-main.png);
+    background-attachment: fixed;
+}
+
+.main-container-inf p {
+    margin: 0%;
+}
 /*ESTILOS PÁGINA BLOG DE BODA*/
 /*Aca la class art-impares es porque quiero que cada articulo del blog tenga colores
 en negativo, excepto el texto principal*/
@@ -194,11 +208,10 @@ en negativo, excepto el texto principal*/
     font-style: italic;
     background-color: #daddd9;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .footer img {
     width: 40px;
     border-radius: 10px 0px;
@@ -207,7 +220,7 @@ en negativo, excepto el texto principal*/
 }
 
 .footer p {
-    font-size: large;
+    font-size: x-small;
 }
 
 /*RESPONSIVE - TABLET*/
@@ -233,6 +246,35 @@ en negativo, excepto el texto principal*/
     }
 }
 
+/*RESPONSIVE - MOBILE*/
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+}
+/*RESPONSIVE - TABLET*/
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header nav ul {
+        flex-direction: row;
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .header img {
+        width: 80px;
+    }
+    
+    .header nav ul li a {
+        font-size: small;
+    }
+}
 /*RESPONSIVE - DESKTOP*/
 
 @media screen and (min-width: 1024px) {
