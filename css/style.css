@@ -126,14 +126,26 @@ fondo gris y solo quiero el fondo gris en el menú.*/
 
 .main-container-inf p {
     margin: 0%;
+    font-size: medium;
 }
 /*ESTILOS PÁGINA BLOG DE BODA*/
 /*Aca la class art-impares es porque quiero que cada articulo del blog tenga colores
 en negativo, excepto el texto principal*/
+.bdb-main {
+    background-image: url(./../img/dot-grid.png);
+    background-attachment: fixed;
+}
 
 .bdb-container {
     display:flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.art-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -142,23 +154,61 @@ en negativo, excepto el texto principal*/
     color:#009b7d;
     background-color: #dddddd;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dotted #d66;
+}
+
+.art-impares h3 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.art-impares img {
+    width: 50%;
+    margin: 30px;
+    border: #e6a70d,0 2px;
+    box-shadow:-1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
 }
 
 /*Este es el estilo para el articulo n°2, 4 y así*/
 .art-pares {
     font-family: "afacad";
     color:#dddddd;
-    background-color:#009b7d;
+    background-color:#e6a70d;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.art-pares h3 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.art-pares img {
+    width: 50%;
+    margin: 30px;
+    border: #e6a70d,0 2px;
+    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
 }
 
 /*Y aca es el estilo del texto principal de cada artículo, que mantiene el color*/
 .art-impares p {
-    color:#e6a70d;
+    text-align: center;
 }
 
 .art-pares p {
-    color:#e6a70d;
+    color:#1e1e1e;
+    text-align: center;
+}
+
+.bdb-boton {
+    width: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 /*ESTILOS PÁGINA GALERÍA*/
@@ -210,17 +260,12 @@ en negativo, excepto el texto principal*/
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
-.footer img {
-    width: 40px;
-    border-radius: 10px 0px;
-    border: #e6a70d dotted 2px;
-    margin: 10px;
+    height: 30px;
 }
 
 .footer p {
     font-size: x-small;
+    margin-bottom: 0px;
 }
 
 /*RESPONSIVE - TABLET*/
