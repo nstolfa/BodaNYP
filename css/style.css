@@ -122,6 +122,12 @@
     font-size: medium;
 }
 
+.carousel-item img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
 /*                                             ESTILOS PÁGINA BLOG DE BODA                                            */
 
 .bdb-main {
@@ -367,6 +373,10 @@
     .header nav ul li a {
         font-size: small;
     }
+    /*MQ-RSP TABLET PAGE INDEX*/
+    .carousel-item img {
+        height: 450px;
+    }
     /*MQ-RSP TABLET PAGE BLOG DE BODA (BDB)*/
 
     .art-container {
@@ -409,6 +419,10 @@
         font-size: x-large;
     }
 
+    /*MQ-RSP PAGE INDEX*/
+    .carousel-item img {
+        height: 600px;
+    }
     /*MQ-RSP PAGE BLOG DE BODA (BDB)*/
     .art-container {
         width: 1000px;
