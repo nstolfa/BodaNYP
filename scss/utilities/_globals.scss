@@ -15,11 +15,15 @@
     font-family: "caviar";
     src: url(./../assets/fonts/CaviarDreams.ttf)
 }
+@font-face {
+    font-family: "qas";
+    src: url(./../assets/fonts/Qasbyne.otf)
+}
 /*ESTILOS GLOBALES DE TODAS LAS PAGINAS */
 .titulo {
     color: $color-principal;
     //font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: "caviar";
+    font-family: "qas";
     margin: 20px 20px 0px 20px;
     text-align: center;
 }
