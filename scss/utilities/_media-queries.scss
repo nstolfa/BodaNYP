@@ -15,7 +15,7 @@
                 align-items: center;
                 li {
                     a {
-                        font-size: small;
+                        font-size: large;
                     }
                 }
             }
@@ -63,4 +63,45 @@
             }
         }
     }
+}
+
+
+
+
+/*MQ DESKTOP*/
+@media screen and (min-width: 1024px) {
+        /*Media query dktop del Header*/
+        header {
+            img {
+                width: 150px;
+                border-radius: 50%;
+                border: 2px dotted #e6a70d;
+            }
+            nav {
+                ul {
+                    li {
+                        a {
+                            font-size: x-large;
+                        }
+                    }
+                }
+            }
+        }
+        /*Media Query dktop del Index*/
+        .carousel-item {
+            img {
+                height: 600px;
+            }
+        }
+        /*Media Query dktop del blod de boda*/
+        .bdb-main {
+            .bdb-container {
+                .art-container {
+                    width: 1000px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
 }

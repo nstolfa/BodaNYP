@@ -1,0 +1,38 @@
+/*ESTILOS CONFIRMACION*/
+.main-confirmacion {
+    .form-confirmacion {
+        margin: 40px;
+        padding: 20px;
+        background-image: url("./../assets/img/beige-tiles.png");
+        background-attachment: fixed;
+        border-radius: 20px 0px;
+        .container {
+            .texto-form {
+                .texto-label {
+                    font-family: "afacad";
+                }
+                legend {
+                    font-family: "afacad";
+                }
+                .form-check {
+                    input:checked {
+                        background-color: #e6a70d;
+                        border-color: chocolate;
+                    }
+                }
+            }
+            .btn-confirmacion {
+                background-color: #e6a70d;
+                border: 1px solid #1e1e1e;
+                font-family: "afacad";
+                &:hover {
+                    background-color: #009b7d;
+                    border: 1px solid #1e1e1e;
+                }
+                &:visited {
+                    background-color: #8fbc8f;
+                }
+            }
+        }
+    }
+}

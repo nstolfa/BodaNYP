@@ -72,7 +72,7 @@ header nav ul li a:hover {
   color: #8fbc8f;
 }
 
-/*ESTILOS MAIN GENERALES*/
+/*ESTILOS INDEX*/
 main section .main-container {
   display: flex;
   flex-direction: column;
@@ -179,6 +179,38 @@ main section .main-container-inf {
   border: 1px solid #009b7d;
 }
 
+/*ESTILOS CONFIRMACION*/
+.main-confirmacion .form-confirmacion {
+  margin: 40px;
+  padding: 20px;
+  background-image: url("./../assets/img/beige-tiles.png");
+  background-attachment: fixed;
+  border-radius: 20px 0px;
+}
+.main-confirmacion .form-confirmacion .container .texto-form .texto-label {
+  font-family: "afacad";
+}
+.main-confirmacion .form-confirmacion .container .texto-form legend {
+  font-family: "afacad";
+}
+.main-confirmacion .form-confirmacion .container .texto-form .form-check input:checked {
+  background-color: #e6a70d;
+  border-color: chocolate;
+}
+.main-confirmacion .form-confirmacion .container .btn-confirmacion {
+  background-color: #e6a70d;
+  border: 1px solid #1e1e1e;
+  font-family: "afacad";
+}
+.main-confirmacion .form-confirmacion .container .btn-confirmacion:hover {
+  background-color: #009b7d;
+  border: 1px solid #1e1e1e;
+}
+.main-confirmacion .form-confirmacion .container .btn-confirmacion:visited {
+  background-color: #8fbc8f;
+}
+
+/*ESTILOS GALERIA*/
 .main-galeria section .grid-container-galeria {
   display: grid;
   grid-template-rows: auto;
@@ -252,6 +284,7 @@ main section .main-container-inf {
   width: 100px;
 }
 
+/*ESTILOS LISTA DE CASAMIENTO*/
 .main-ldc {
   background-image: url("./../assets/img/dot-grid.png");
   background-attachment: fixed;
@@ -326,7 +359,7 @@ footer p {
     align-items: center;
   }
   header nav ul li a {
-    font-size: small;
+    font-size: large;
   }
   /*Media Query del Index*/
   .carousel-item img {
@@ -354,5 +387,28 @@ footer p {
   /*Media Query de pagina lista de casamiento*/
   .main-ldc .text-center .blockquote p {
     font-size: xx-large;
+  }
+}
+/*MQ DESKTOP*/
+@media screen and (min-width: 1024px) {
+  /*Media query dktop del Header*/
+  header img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px dotted #e6a70d;
+  }
+  header nav ul li a {
+    font-size: x-large;
+  }
+  /*Media Query dktop del Index*/
+  .carousel-item img {
+    height: 600px;
+  }
+  /*Media Query dktop del blod de boda*/
+  .bdb-main .bdb-container .art-container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */
