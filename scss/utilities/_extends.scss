@@ -1,0 +1,20 @@
+%texto-principal {
+    font-family: "afacad";
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+%img-galerias {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px;
+    border: 1px seagreen dotted;
+    object-fit: cover;
+}
+
+%img-bdb {
+    width: 50%;
+    margin: 30px;
+    border: #e6a70d,0 2px;
+}

@@ -9,70 +9,45 @@
             margin: 30px;
             .grid-item-foto1 {
                 img {
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 20px 0px;
-                    border: 1px seagreen dotted;
-                    object-fit: cover;
+                    @extend %img-galerias;
                 }
             }
             .grid-item-foto2 {
                 img {
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 20px 0px;
-                    border: 1px seagreen dotted;
-                    object-fit: cover;
+                    @extend %img-galerias;
                 }
             }
             .grid-item-foto3 {
                 img {
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 20px 0px;
-                    border: 1px seagreen dotted;
-                    object-fit: cover;
+                    @extend %img-galerias;
                 }
             }
             .grid-item-foto4 {
                 img {
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 20px 0px;
-                    border: 1px seagreen dotted;
-                    object-fit: cover;
+                    @extend %img-galerias;
                 }
             }
             .grid-item-foto5 {
                 img {
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 20px 0px;
-                    border: 1px seagreen dotted;
-                    object-fit: cover;
+                    @extend %img-galerias;
                 }
             }
             .grid-item-foto6 {
                 img {
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 20px 0px;
-                    border: 1px seagreen dotted;
-                    object-fit: cover;
+                    @extend %img-galerias;
                 }
             }
             }
             .boton-para-subir {
-                display: flex;
-                justify-content: center;
+                @include flexbox (nowrap, column, center, center);
                 margin: 20px;
                 a {
-                    background-color: #009b7d;
+                    background-color: $color-principal;
                     border: 1px solid #009b7d;
                 }
                 a:hover {
                     background-color: #e6a70d;
-                    border: 1px solid #009b7d;
+                    border: 1px solid $color-principal;
                 }
                 .gal-boton {
                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

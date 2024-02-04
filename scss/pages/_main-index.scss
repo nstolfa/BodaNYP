@@ -2,11 +2,7 @@
 main {
     section {
         .main-container {
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
+            @include flexbox (wrap, column, center, center);
             .main-container-2 {
                 margin: 20px;
                 background-image: url(./../assets/img/fondo-main.png);

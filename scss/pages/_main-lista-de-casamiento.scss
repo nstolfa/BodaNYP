@@ -3,11 +3,8 @@
     background-image: url("./../assets/img/dot-grid.png");
     background-attachment: fixed;
     .contenedor-cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include flexbox (wrap, row, center, center);
         row-gap: 15px;
-        align-items: center;
         .card-lc {
             width: 350px;
             height: 380px;
