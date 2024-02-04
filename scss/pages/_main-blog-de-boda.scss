@@ -1,0 +1,67 @@
+/*ESTILOS BLOG DE BODA*/
+.bdb-main {
+    background-image: url("./../assets/img/dot-grid.png");
+    background-attachment: fixed;
+    .bdb-container {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        .art-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .art-impares {
+                font-family: "afacad";
+                color:#009b7d;
+                background-color: #dddddd;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 1px dotted #d66;
+                h3 {
+                    font-size: xx-large;
+                    text-align: center;
+                }
+                img {
+                    width: 50%;
+                    margin: 30px;
+                    border: #e6a70d,0 2px;
+                    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+                }
+                p {
+                    text-align: center;
+                }
+            }
+            .art-pares {
+                font-family: "afacad";
+                color:#dddddd;
+                background-color:#e6a70d;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3 {
+                    font-size: xx-large;
+                    text-align: center;
+                }
+                img {
+                    width: 50%;
+                    margin: 30px;
+                    border: #e6a70d,0 2px;
+                    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+                }
+                p {
+                    color:#1e1e1e;
+                    text-align: center;
+                }
+            .bdb-boton {
+                width: 100px;
+                margin-top: 0;
+                margin-bottom: 20px;
+            }
+            }
+        }
+    }
+}

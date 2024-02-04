@@ -1,3 +1,38 @@
+/*ESTLOS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*ESTILOS GLOBALES*/
+@font-face {
+  font-family: "gill";
+  src: url(./../assets/fonts/gillsans.ttf);
+}
+@font-face {
+  font-family: "afacad";
+  src: url(./../assets/fonts/Afacad-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "midnight";
+  src: url(./../assets/fonts/midnight.ttf);
+}
+.titulo {
+  color: #009b7d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 20px 20px 0px 20px;
+  text-align: center;
+}
+
+.texto-principal {
+  font-family: "afacad";
+  margin: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+/*ESTILOS HEADER*/
 header {
   background-color: #daddd9;
   padding: 10px 30px 10px 30px;
@@ -36,6 +71,105 @@ header nav ul li a:hover {
   color: #8fbc8f;
 }
 
+/*ESTILOS MAIN GENERALES*/
+main section .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main section .main-container .main-container-2 {
+  margin: 20px;
+  background-image: url(./../assets/img/fondo-main.png);
+  background-attachment: fixed;
+}
+main section .main-container .main-container-2 .subtitulo {
+  color: #e6a70d;
+  font-family: "midnight";
+  margin: 0px 20px 20px 20px;
+  text-align: center;
+}
+main section .carrousel-grid .carousel .carousel-inner .carousel-item img {
+  width: 400px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .main-container-inf {
+  background-image: url(./../assets/img/fondo-main.png);
+  background-attachment: fixed;
+}
+
+/*ESTILOS BLOG DE BODA*/
+.bdb-main {
+  background-image: url("./../assets/img/dot-grid.png");
+  background-attachment: fixed;
+}
+.bdb-main .bdb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bdb-main .bdb-container .art-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bdb-main .bdb-container .art-container .art-impares {
+  font-family: "afacad";
+  color: #009b7d;
+  background-color: #dddddd;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dotted #d66;
+}
+.bdb-main .bdb-container .art-container .art-impares h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+.bdb-main .bdb-container .art-container .art-impares img {
+  width: 50%;
+  margin: 30px;
+  border: #e6a70d, 0 2px;
+  box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
+.bdb-main .bdb-container .art-container .art-impares p {
+  text-align: center;
+}
+.bdb-main .bdb-container .art-container .art-pares {
+  font-family: "afacad";
+  color: #dddddd;
+  background-color: #e6a70d;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bdb-main .bdb-container .art-container .art-pares h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+.bdb-main .bdb-container .art-container .art-pares img {
+  width: 50%;
+  margin: 30px;
+  border: #e6a70d, 0 2px;
+  box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
+.bdb-main .bdb-container .art-container .art-pares p {
+  color: #1e1e1e;
+  text-align: center;
+}
+.bdb-main .bdb-container .art-container .art-pares .bdb-boton {
+  width: 100px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/*ESTILOS FOOTER*/
 footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #e6a70d;
