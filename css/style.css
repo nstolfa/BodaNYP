@@ -247,10 +247,11 @@
 */
 
 /*ESTILOS PÁGINA LISTA DE CASAMIENTO                            */
-.background-ldc {
+/*.background-ldc {
     background-image: url("./../assets/img/dot-grid.png");
     background-attachment: fixed;
 }
+
 
 .contenedor-cards {
     display: flex;
@@ -269,7 +270,6 @@
     border-radius: 0% 20%;
     overflow: hidden;
 }
-
 .card-lc img {
     width: 200px;
 }
@@ -280,7 +280,8 @@
     font-family: "afacad";
     font-size: large;
 }
-
+*/
+/*
 .card-lc img {
     width: 100%;
     height: 250px;
@@ -295,8 +296,11 @@
 .text-center {
     padding: 30px;
 }
+*/
 
-/*                                             ESTILOS PÁGINA CONFIRMACIÓN                                          */
+
+
+/*ESTILOS PÁGINA CONFIRMACIÓN                                          */
 
 .form-confirmacion {
     margin: 40px;
@@ -335,7 +339,7 @@
     background-color: #8fbc8f;
 }
 
-/*                                                 ESTILOS DEL FOOTER                                               */
+/*ESTILOS DEL FOOTER                                               */
 
 /*.footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -352,6 +356,16 @@
     font-size: x-small;
     margin-bottom: 0px;
 }*/
+
+
+
+
+
+/* RESPONSIVEEEEEEEEEEEEEEEEEEEEEEEEE  */
+
+
+
+
 
 /*MQ-RESPONSIVE - TABLET*/
 /*
@@ -377,18 +391,18 @@
     }
     */
     /*MQ-RSP TABLET PAGEINDEX*/ 
-    .carousel-item img {
+    /*.carousel-item img {
         height: 450px;
     }
     /*MQ-RSP TABLET PAGE BLOG DE BODA (BDB)*/
-
+/*
     .art-container {
         width: 700px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+*/
     /*MQ-RSP TABLET PAGE GALERIA*/
     /*
     .grid-container-galeria {
@@ -408,6 +422,9 @@
     .blockquote p {
         font-size: xx-large;
     }
+
+
+    
 /*MQ-RESPONSIVE - DESKTOP                                                */
 @media screen and (min-width: 1024px) {
 

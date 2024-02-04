@@ -1,0 +1,40 @@
+.main-ldc {
+    background-image: url("./../assets/img/dot-grid.png");
+    background-attachment: fixed;
+    .contenedor-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+        align-items: center;
+        .card-lc {
+            width: 350px;
+            height: 380px;
+            margin: 30px;
+            background-color: #1e1e1e;
+            border: 1px dotted #1e1e1e;
+            border-radius: 0% 20%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+            .texto-cards {
+                color: #dddddd;
+                text-align: center;
+                font-family: "afacad";
+                font-size: large;
+            }
+        }
+    }
+    .text-center {
+        padding: 30px;
+        .blockquote {
+            p {
+                font-family: "midnight";
+                font-size: x-large;
+            }
+        }
+    }
+}

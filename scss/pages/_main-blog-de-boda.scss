@@ -11,6 +11,7 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+            width: auto;
             .art-impares {
                 font-family: "afacad";
                 color:#009b7d;
@@ -56,11 +57,19 @@
                     color:#1e1e1e;
                     text-align: center;
                 }
-            .bdb-boton {
-                width: 100px;
-                margin-top: 0;
-                margin-bottom: 20px;
             }
+            .boton-para-subir {
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+                a {
+                    background-color: #009b7d;
+                    border: 1px solid #009b7d;
+                }
+                a:hover {
+                    background-color: #e6a70d;
+                    border: 1px solid #009b7d;
+                }
             }
         }
     }

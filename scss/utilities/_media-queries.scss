@@ -1,3 +1,4 @@
+/*MQ TABLET*/
 @media screen and (min-width: 768px) {
     /*Media query del Header*/
     header {
@@ -20,6 +21,23 @@
             }
         }
     }
+    /*Media Query del Index*/
+    .carousel-item {
+        img {
+            height: 450px;
+        }
+    }
+    /*Media Query de pagina blog de boda -bdb-*/
+    .bdb-main {
+        .bdb-container {
+            .art-container {
+                width: 700px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
     /*Media Query de pagina galeria*/
     .main-galeria {
         section {
@@ -32,6 +50,16 @@
             }
             .grid-item-foto5 {
                 grid-column: 1/3;;
+            }
+        }
+    }
+    /*Media Query de pagina lista de casamiento*/
+    .main-ldc {
+        .text-center {
+            .blockquote {
+                p {
+                    font-size: xx-large;
+                }
             }
         }
     }

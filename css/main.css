@@ -92,8 +92,8 @@ main section .main-container .main-container-2 .subtitulo {
   text-align: center;
 }
 main section .carrousel-grid .carousel .carousel-inner .carousel-item img {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 400;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -117,6 +117,7 @@ main section .main-container-inf {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: auto;
 }
 .bdb-main .bdb-container .art-container .art-impares {
   font-family: "afacad";
@@ -164,10 +165,18 @@ main section .main-container-inf {
   color: #1e1e1e;
   text-align: center;
 }
-.bdb-main .bdb-container .art-container .art-pares .bdb-boton {
-  width: 100px;
-  margin-top: 0;
-  margin-bottom: 20px;
+.bdb-main .bdb-container .art-container .boton-para-subir {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.bdb-main .bdb-container .art-container .boton-para-subir a {
+  background-color: #009b7d;
+  border: 1px solid #009b7d;
+}
+.bdb-main .bdb-container .art-container .boton-para-subir a:hover {
+  background-color: #e6a70d;
+  border: 1px solid #009b7d;
 }
 
 .main-galeria section .grid-container-galeria {
@@ -243,6 +252,46 @@ main section .main-container-inf {
   width: 100px;
 }
 
+.main-ldc {
+  background-image: url("./../assets/img/dot-grid.png");
+  background-attachment: fixed;
+}
+.main-ldc .contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 15px;
+  align-items: center;
+}
+.main-ldc .contenedor-cards .card-lc {
+  width: 350px;
+  height: 380px;
+  margin: 30px;
+  background-color: #1e1e1e;
+  border: 1px dotted #1e1e1e;
+  border-radius: 0% 20%;
+  overflow: hidden;
+}
+.main-ldc .contenedor-cards .card-lc img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-ldc .contenedor-cards .card-lc .texto-cards {
+  color: #dddddd;
+  text-align: center;
+  font-family: "afacad";
+  font-size: large;
+}
+.main-ldc .text-center {
+  padding: 30px;
+}
+.main-ldc .text-center .blockquote p {
+  font-family: "midnight";
+  font-size: x-large;
+}
+
 /*ESTILOS FOOTER*/
 footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -259,6 +308,7 @@ footer p {
   margin-bottom: 0px;
 }
 
+/*MQ TABLET*/
 @media screen and (min-width: 768px) {
   /*Media query del Header*/
   header {
@@ -278,6 +328,17 @@ footer p {
   header nav ul li a {
     font-size: small;
   }
+  /*Media Query del Index*/
+  .carousel-item img {
+    height: 450px;
+  }
+  /*Media Query de pagina blog de boda -bdb-*/
+  .bdb-main .bdb-container .art-container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /*Media Query de pagina galeria*/
   .main-galeria section .grid-container-galeria {
     grid-template-columns: auto auto auto;
@@ -289,5 +350,9 @@ footer p {
   }
   .main-galeria section .grid-item-foto5 {
     grid-column: 1/3;
+  }
+  /*Media Query de pagina lista de casamiento*/
+  .main-ldc .text-center .blockquote p {
+    font-size: xx-large;
   }
 }/*# sourceMappingURL=main.css.map */
