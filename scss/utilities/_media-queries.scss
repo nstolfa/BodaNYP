@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+    /*Media query del Header*/
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 80px;
+        }
+        nav {
+            ul {
+                flex-direction: row;
+                column-gap: 20px;
+                align-items: center;
+                li {
+                    a {
+                        font-size: small;
+                    }
+                }
+            }
+        }
+    }
+    /*Media Query de pagina galeria*/
+    .main-galeria {
+        section {
+            .grid-container-galeria {
+                grid-template-columns: auto auto auto;
+                column-gap: 20px;
+            }
+            .grid-item-foto4 {
+                grid-column: 1/4;
+            }
+            .grid-item-foto5 {
+                grid-column: 1/3;;
+            }
+        }
+    }
+}

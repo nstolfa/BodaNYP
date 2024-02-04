@@ -18,6 +18,7 @@
   font-family: "midnight";
   src: url(./../assets/fonts/midnight.ttf);
 }
+/*ESTILOS GLOBALES DE TODAS LAS PAGINAS */
 .titulo {
   color: #009b7d;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -169,6 +170,79 @@ main section .main-container-inf {
   margin-bottom: 20px;
 }
 
+.main-galeria section .grid-container-galeria {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  row-gap: 20px;
+  margin: 30px;
+}
+.main-galeria section .grid-container-galeria .grid-item-foto1 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0px;
+  border: 1px seagreen dotted;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria section .grid-container-galeria .grid-item-foto2 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0px;
+  border: 1px seagreen dotted;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria section .grid-container-galeria .grid-item-foto3 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0px;
+  border: 1px seagreen dotted;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria section .grid-container-galeria .grid-item-foto4 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0px;
+  border: 1px seagreen dotted;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria section .grid-container-galeria .grid-item-foto5 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0px;
+  border: 1px seagreen dotted;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria section .grid-container-galeria .grid-item-foto6 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0px;
+  border: 1px seagreen dotted;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-galeria section .boton-para-subir {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.main-galeria section .boton-para-subir a {
+  background-color: #009b7d;
+  border: 1px solid #009b7d;
+}
+.main-galeria section .boton-para-subir a:hover {
+  background-color: #e6a70d;
+  border: 1px solid #009b7d;
+}
+.main-galeria section .boton-para-subir .gal-boton {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100px;
+}
+
 /*ESTILOS FOOTER*/
 footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -183,4 +257,37 @@ footer {
 footer p {
   font-size: x-small;
   margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  /*Media query del Header*/
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img {
+    width: 80px;
+  }
+  header nav ul {
+    flex-direction: row;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    align-items: center;
+  }
+  header nav ul li a {
+    font-size: small;
+  }
+  /*Media Query de pagina galeria*/
+  .main-galeria section .grid-container-galeria {
+    grid-template-columns: auto auto auto;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .main-galeria section .grid-item-foto4 {
+    grid-column: 1/4;
+  }
+  .main-galeria section .grid-item-foto5 {
+    grid-column: 1/3;
+  }
 }/*# sourceMappingURL=main.css.map */

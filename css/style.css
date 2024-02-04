@@ -205,8 +205,8 @@
     margin-bottom: 20px;
 }
 */
-/*ESTILOS PÁGINA GALERÍA                                           */
-
+/*ESTILOS PÁGINA GALERÍA*/
+/*
 .grid-container-galeria {
     display:grid;
     grid-template-rows: auto;
@@ -222,7 +222,8 @@
     border: 1px seagreen dotted;
     object-fit: cover;
 }
-
+*/
+/*
 .boton-para-subir {
     display: flex;
     justify-content: center;
@@ -231,20 +232,21 @@
 
 .boton-para-subir a {
     background-color: #009b7d;
-    border: 1px solid #009b7d
+    border: 1px solid #009b7d;
 }
 
 .boton-para-subir a:hover {
     background-color: #e6a70d;
     border: 1px solid #009b7d;
 }
-
+/*
 .gal-boton {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100px;
 }
+*/
 
-/*                                            ESTILOS PÁGINA LISTA DE CASAMIENTO                            */
+/*ESTILOS PÁGINA LISTA DE CASAMIENTO                            */
 .background-ldc {
     background-image: url("./../assets/img/dot-grid.png");
     background-attachment: fixed;
@@ -351,11 +353,10 @@
     margin-bottom: 0px;
 }*/
 
-/*                                             MQ-RESPONSIVE - TABLET                                              */
+/*MQ-RESPONSIVE - TABLET*/
+/*
+@media screen and (min-width: 768px max-width: 1023px) {
 
-@media screen and (min-width: 768px) {
-
-    /*MQ-RSP TABLET MENU*/
     .header {
         flex-direction: row;
         justify-content: space-between;
@@ -374,7 +375,8 @@
     .header nav ul li a {
         font-size: small;
     }
-    /*MQ-RSP TABLET PAGE INDEX*/
+    */
+    /*MQ-RSP TABLET PAGEINDEX*/ 
     .carousel-item img {
         height: 450px;
     }
@@ -388,6 +390,7 @@
     }
 
     /*MQ-RSP TABLET PAGE GALERIA*/
+    /*
     .grid-container-galeria {
         grid-template-columns: auto auto auto;
         column-gap: 20px;
@@ -400,14 +403,12 @@
     .grid-item-foto5 {
         grid-column: 1/3;
     }
-
+*/
     /*MQ-RSP TABLET PAGE LISTA DE CASAMIENTO*/
     .blockquote p {
         font-size: xx-large;
     }
-    
-}
-/*                                              MQ-RESPONSIVE - DESKTOP                                                */
+/*MQ-RESPONSIVE - DESKTOP                                                */
 @media screen and (min-width: 1024px) {
 
         /*MQ-RSP TABLET MENU*/
@@ -429,9 +430,9 @@
         width: 1000px;
     }
 
-    /*MQ-RSP TABLET PAGE GALERIA*/
+    /*MQ-RSP  PAGE GALERIA*/
     .grid-container-galeria {
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
         column-gap: 20px;
     }
 }

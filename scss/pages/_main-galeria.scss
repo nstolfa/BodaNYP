@@ -1,0 +1,82 @@
+.main-galeria {
+    section {
+        .grid-container-galeria {
+            display:grid;
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+            row-gap: 20px;
+            margin: 30px;
+            .grid-item-foto1 {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0px;
+                    border: 1px seagreen dotted;
+                    object-fit: cover;
+                }
+            }
+            .grid-item-foto2 {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0px;
+                    border: 1px seagreen dotted;
+                    object-fit: cover;
+                }
+            }
+            .grid-item-foto3 {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0px;
+                    border: 1px seagreen dotted;
+                    object-fit: cover;
+                }
+            }
+            .grid-item-foto4 {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0px;
+                    border: 1px seagreen dotted;
+                    object-fit: cover;
+                }
+            }
+            .grid-item-foto5 {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0px;
+                    border: 1px seagreen dotted;
+                    object-fit: cover;
+                }
+            }
+            .grid-item-foto6 {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0px;
+                    border: 1px seagreen dotted;
+                    object-fit: cover;
+                }
+            }
+            }
+            .boton-para-subir {
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+                a {
+                    background-color: #009b7d;
+                    border: 1px solid #009b7d;
+                }
+                a:hover {
+                    background-color: #e6a70d;
+                    border: 1px solid #009b7d;
+                }
+                .gal-boton {
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    width: 100px;
+                }
+            }
+        }
+    }
