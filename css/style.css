@@ -30,7 +30,7 @@
 }
 /*                                                   ESTILOS HEADER                                                  */
 
-.header {
+/*.header {
     background-color: #daddd9;
     padding: 10px 30px 10px 30px;
     display: flex;
@@ -43,9 +43,9 @@
     width: 40px;
     border-radius: 50%;
     border: 2px dotted #e6a70d;
-}
+}*/
 
-.header nav ul {
+/*.header nav ul {
     list-style: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -53,17 +53,17 @@
     align-items: center;
     flex-direction: column;
     padding: 0px;
-}
+}*/
 
-.header nav ul li a {
+/*.header nav ul li a {
     font-size: x-small;
 }
 
 .header nav ul li a:link{
     color:#009b7d;
-}
+}*/
 
-.header nav ul li a:visited {
+/*.header nav ul li a:visited {
     color:#e6a70d;
 }
 
@@ -73,7 +73,7 @@
 
 .header nav ul li a:hover {
     color:#8fbc8f;
-}
+}*/
 /*                                               ESTILOS MAIN GENERALES                                                */
 /*El titulo se repite en todas las páginas, es el nombre de la sección*/
 
@@ -271,6 +271,10 @@
     overflow: hidden;
 }
 
+.card-lc img {
+    width: 200px;
+}
+
 .texto-cards {
     color: #dddddd;
     text-align: center;
@@ -334,7 +338,7 @@
 
 /*                                                 ESTILOS DEL FOOTER                                               */
 
-.footer {
+/*.footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#e6a70d;
     font-style: italic;
@@ -348,7 +352,7 @@
 .footer p {
     font-size: x-small;
     margin-bottom: 0px;
-}
+}*/
 
 /*                                             MQ-RESPONSIVE - TABLET                                              */
 
