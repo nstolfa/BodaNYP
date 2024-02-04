@@ -87,7 +87,7 @@
 
 .main-container-2 {
     margin: 20px;
-    background-image: url(./../img/fondo-main.png);
+    background-image: url(./../assets/img/fondo-main.png);
     background-attachment: fixed;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .main-container-inf {
-    background-image: url(./../img/fondo-main.png);
+    background-image: url(./../assets/img/fondo-main.png);
     background-attachment: fixed;
 }
 
@@ -131,7 +131,7 @@
 /*                                             ESTILOS PÁGINA BLOG DE BODA                                            */
 
 .bdb-main {
-    background-image: url(./../img/dot-grid.png);
+    background-image: url(./../assets/img/dot-grid.png);
     background-attachment: fixed;
 }
 
@@ -249,7 +249,7 @@
 
 /*                                            ESTILOS PÁGINA LISTA DE CASAMIENTO                            */
 .background-ldc {
-    background-image: url("./../img/dot-grid.png");
+    background-image: url("./../assets/img/dot-grid.png");
     background-attachment: fixed;
 }
 
@@ -298,7 +298,7 @@
 .form-confirmacion {
     margin: 40px;
     padding: 20px;
-    background-image: url("./../img/beige-tiles.png");
+    background-image: url("./../assets/img/beige-tiles.png");
     background-attachment: fixed;
     border-radius: 20px 0px;
 }
