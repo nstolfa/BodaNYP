@@ -2,10 +2,7 @@
 header {
     background: linear-gradient(to left, #fafaf8, #b0dab9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 30px 10px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexbox (nowrap, column, center, center);
     img{
         width: 40px;
         border-radius: 50%;
@@ -15,14 +12,11 @@ header {
         ul {
             list-style: none;
             font-family: "abel";
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            @include flexbox (nowrap, column, center, center);
             padding: 0px;
             li {
                 a {
-                    font-size: x-small;
+                    font-size: medium;
                 }
                 a:link {
                     color:#009b7d;
