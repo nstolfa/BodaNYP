@@ -2,57 +2,47 @@
 .main-galeria {
     section {
         .grid-container-galeria {
-            display:grid;
+            display: grid;
             grid-template-rows: auto;
             grid-template-columns: auto;
             row-gap: 20px;
             margin: 30px;
+
             .grid-item-foto1 {
                 img {
                     @extend %img-galerias;
                 }
             }
+
             .grid-item-foto2 {
                 img {
                     @extend %img-galerias;
                 }
             }
+
             .grid-item-foto3 {
                 img {
                     @extend %img-galerias;
                 }
             }
+
             .grid-item-foto4 {
                 img {
                     @extend %img-galerias;
                 }
             }
+
             .grid-item-foto5 {
                 img {
                     @extend %img-galerias;
                 }
             }
+
             .grid-item-foto6 {
                 img {
                     @extend %img-galerias;
                 }
             }
-            }
-            .boton-para-subir {
-                @include flexbox (nowrap, column, center, center);
-                margin: 20px;
-                a {
-                    background-color: #009b7d;
-                    border: 1px solid #009b7d;
-                }
-                a:hover {
-                    background-color: #e6a70d;
-                    border: 1px solid $color-principal;
-                }
-                .gal-boton {
-                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    width: 100px;
-                }
-            }
         }
     }
+}

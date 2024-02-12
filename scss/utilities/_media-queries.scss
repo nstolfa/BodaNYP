@@ -1,26 +1,5 @@
 /*MQ TABLET*/
 @media screen and (min-width: 768px) {
-    /*Media query del Header*/
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        img {
-            width: 80px;
-        }
-        nav {
-            ul {
-                flex-direction: row;
-                column-gap: 20px;
-                align-items: center;
-                li {
-                    a {
-                        font-size: large;
-                    }
-                }
-            }
-        }
-    }
     /*Media Query del Index*/
     .carousel-item {
         img {
@@ -78,15 +57,13 @@
 @media screen and (min-width: 1024px) {
         /*Media query dktop del Header*/
         header {
-            img {
-                width: 150px;
-                border-radius: 50%;
-                border: 2px dotted #e6a70d;
-            }
-            nav {
-                ul {
-                    li {
-                        a {
+            .navbar {
+                .container-menu {
+                    .logo {
+                        width: 150px;
+                    }
+                    .menu {
+                        .nav-item {
                             font-size: x-large;
                         }
                     }
@@ -94,9 +71,11 @@
             }
         }
         /*Media Query dktop del Index*/
+        
         .carousel-item {
             img {
                 height: 600px;
+                width: 300px;
             }
         }
         /*Media Query dktop del blod de boda*/
