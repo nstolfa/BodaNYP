@@ -5,42 +5,49 @@
             display: grid;
             grid-template-rows: auto;
             grid-template-columns: auto;
-            row-gap: 20px;
+            row-gap: 40px;
+            padding: 30px;
             margin: 30px;
-
             .grid-item-foto1 {
                 img {
                     @extend %img-galerias;
+                    @extend %img-hover;
+
                 }
             }
 
             .grid-item-foto2 {
                 img {
                     @extend %img-galerias;
+                    @extend %img-hover;
                 }
             }
 
             .grid-item-foto3 {
                 img {
                     @extend %img-galerias;
+                    @extend %img-hover;
                 }
             }
 
             .grid-item-foto4 {
                 img {
                     @extend %img-galerias;
+                    @extend %img-hover;
                 }
             }
 
             .grid-item-foto5 {
                 img {
                     @extend %img-galerias;
+                    @extend %img-hover;
                 }
             }
 
             .grid-item-foto6 {
                 img {
                     @extend %img-galerias;
+                    @extend %img-hover;
                 }
             }
         }

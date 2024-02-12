@@ -11,8 +11,15 @@
     border-radius: 20px 0px;
     border: 1px seagreen dotted;
     object-fit: cover;
+    box-shadow: 10px 10px 5px -7px seagreen;
 }
 
+%img-hover {
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
 %img-bdb {
     width: 50%;
     margin: 30px;
