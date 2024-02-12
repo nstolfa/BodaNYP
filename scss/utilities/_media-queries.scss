@@ -1,7 +1,11 @@
 /*MQ TABLET*/
 @media screen and (min-width: 768px) {
     /*Media Query del Index*/
-
+    .banner-animado {
+        p{
+            font-size: large;
+        }
+    }
     /*Media Query de pagina blog de boda -bdb-*/
     .bdb-main {
         .bdb-container {
@@ -67,7 +71,11 @@
             }
         }
         /*Media Query dktop del Index*/
-
+        .banner-animado {
+            p{
+                font-size: x-large;
+            }
+        }
         /*Media Query dktop del blod de boda*/
         .bdb-main {
             .bdb-container {

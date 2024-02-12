@@ -160,7 +160,7 @@ main section .main-container .banner-animado {
   text-align: center;
   background-color: #4ad48a;
   font-family: "abel";
-  font-size: medium;
+  font-size: small;
   color: white;
   width: 50%;
   height: 100px;
@@ -414,6 +414,9 @@ footer p {
 /*MQ TABLET*/
 @media screen and (min-width: 768px) {
   /*Media Query del Index*/
+  .banner-animado p {
+    font-size: large;
+  }
   /*Media Query de pagina blog de boda -bdb-*/
   .bdb-main .bdb-container .art-container {
     width: 700px;
@@ -452,6 +455,9 @@ footer p {
     font-size: x-large;
   }
   /*Media Query dktop del Index*/
+  .banner-animado p {
+    font-size: x-large;
+  }
   /*Media Query dktop del blod de boda*/
   .bdb-main .bdb-container .art-container {
     width: 1000px;
