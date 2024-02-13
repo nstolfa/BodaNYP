@@ -20,8 +20,30 @@
         cursor: pointer;
     }
 }
+
 %img-bdb {
     width: 50%;
     margin: 30px;
     border: #e6a70d,0 2px;
+}
+
+%botones {
+    @include flexbox (nowrap, column, center, center);
+    margin: 20px;
+    a {
+        background-color: #009b7d;
+        border: 1px solid #009b7d;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 20px;
+        border-radius: 0 10%;
+        box-shadow: 10px 10px 5px -8px #009b7d;
+        font-family: "abel";
+        font-weight: bold;
+    }
+    a:hover {
+        background-color: #b3dec1;
+        color: #e6a70d;
+        border: 1px solid #009b7d;                
+    }
 }

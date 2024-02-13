@@ -46,16 +46,7 @@
                 }
             }
             .boton-para-subir {
-                @include flexbox (nowrap, column, center, center);
-                margin: 20px;
-                a {
-                    background-color: #009b7d;
-                    border: 1px solid #009b7d;
-                }
-                a:hover {
-                    background-color: #e6a70d;
-                    border: 1px solid #009b7d;
-                }
+                @extend %botones;
             }
         }
     }
